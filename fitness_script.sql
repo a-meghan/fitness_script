@@ -18,7 +18,7 @@ CREATE TABLE WorkoutSessions (
 );
 
 INSERT INTO Members (
-	id,
+    id,
     name,
     age
 )
@@ -30,7 +30,7 @@ VALUES
 (5, 'Mike Davis', 28);
 
 INSERT INTO WorkoutSessions (
-	session_id,
+    session_id,
     member_id,
     session_date,
     session_time,
